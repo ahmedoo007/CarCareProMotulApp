@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AutomotiveTechnician.AutoHome"
+    android:id="@+id/drawerlayout1"
+    android:background="@color/background"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar1"
+            android:background="@color/write"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:title="Toolbars"
+            android:titleTextColor="#ffffff"
+            android:titleMarginStart="10dp"
+            android:layout_marginBottom="5dp"
+            tools:ignore="MissingConstraints"/>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="412dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085"
+        app:srcCompat="@drawable/logo" />
+
+
+    <Button
+        android:id="@+id/view_app1"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:background="@drawable/square_btn"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="View Appointments"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313" />
+
+    <Button
+        android:id="@+id/add_product"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:background="@drawable/square_btn"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="Add Product"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313" />
+
+    <Button
+        android:id="@+id/view_product"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:background="@drawable/square_btn"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="View Products"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <Button
+        android:id="@+id/delete_product"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:background="@drawable/square_btn"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="Delete Product"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <Button
+        android:id="@+id/chat1"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:background="@drawable/square_btn"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="Live Chat"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635" />
+
+    <Button
+        android:id="@+id/view_feed"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:background="@drawable/square_btn"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="View Feedback"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635" />
+
+    <Button
+        android:id="@+id/view_profile1"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:background="@drawable/square_btn"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="View Profile"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" />
+
+    <Button
+        android:id="@+id/edit_profile1"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:background="@drawable/square_btn"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="Edit Profile"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794" />
+
+    <Button
+        android:id="@+id/delete_account1"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:background="@drawable/square_btn"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="Delete Account"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.949" />
+
+    <Button
+        android:id="@+id/logout1"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:background="@drawable/square_btn"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.949" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationview1"
+        app:headerLayout="@layout/headerfile1"
+        app:menu="@menu/sidemenu1"
+        android:layout_gravity="start"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

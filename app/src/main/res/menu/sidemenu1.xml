@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home_menu1"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+
+        <item android:id="@+id/m_view_ap_menu"
+            android:title="View Appointments"/>
+
+        <item android:id="@+id/m_chat_menu"
+            android:title="Live Chat"/>
+
+        <item android:id="@+id/m_view_feed_menu"
+            android:title="View Feedbacks"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Products">
+            <menu>
+                <item android:id="@+id/m_addProduct_menu"
+                    android:title="Add Product"/>
+
+                <item android:id="@+id/m_viewPro_menu"
+                    android:title="View Product"/>
+
+                <item android:id="@+id/m_delPro_menu"
+                    android:title="Delete Product"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Profile">
+            <menu>
+                <item android:id="@+id/m_view_menu"
+                    android:title="View Profile"/>
+
+                <item android:id="@+id/m_edit_menu"
+                   android:title="Edit Profile"/>
+
+                <item android:id="@+id/m_delete_menu"
+                    android:title="Delete Account"/>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Authentication">
+            <menu>
+                <item android:id="@+id/m_logout_menu"
+                    android:title="Logout"/>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bookService1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Service: "
+            android:textColor="@color/write"
+            android:textSize="18sp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/bookUsername1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Date: "
+            android:textColor="@color/write"
+            android:textSize="18sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/bookPhone1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Time: "
+            android:textColor="@color/write"
+            android:textSize="18sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/bookDate1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Appointment Date: "
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/write"
+            android:textSize="18sp">
+        </TextView>
+        <TextView
+            android:id="@+id/bookTime1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Appointment Time "
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/write"
+            android:textSize="18sp">
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_delAppointment"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/abril_fatface"
+            android:textAllCaps="false"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn"
+            android:text="Delete Appointment"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold">
+        </Button>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

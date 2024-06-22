@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="services_list">
+        <item>Select any Service</item>
+        <item>Oil change</item>
+        <item>Brake Repair</item>
+        <item>Motor Diagnostic</item>
+        <item>Wheel Alignment</item>
+        <item>Battery Testing and Replacement</item>
+        <item>Fluid checks and top-ups</item>
+        <item>Fuel System Service</item>
+        <item>Engine Diagnostics</item>
+        <item>Electrical System Inspection</item>
+    </string-array>
+
+
+</resources>

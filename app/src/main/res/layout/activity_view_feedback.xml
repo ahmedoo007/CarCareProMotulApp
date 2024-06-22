@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    tools:context=".AutomotiveTechnician.ViewFeedback">
+
+    <TextView
+        android:id="@+id/txt_heading"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="All Feedbacks"
+        android:textSize="36sp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="@font/abril_fatface"
+        android:textColor="@color/write"/>
+
+    <ProgressBar
+        android:id="@+id/progress_circle7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txt_heading"/>
+
+</RelativeLayout>
